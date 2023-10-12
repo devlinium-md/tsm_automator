@@ -5,11 +5,11 @@ import pyautogui
 
 
 def post():
-    actions(action="test", freq=0.5)
+    actions(action="post", freq=0.5)
 
 
 def destroy():
-    actions(action="test", freq=2)
+    actions(action="destroy", freq=2)
 
 
 def stop():
